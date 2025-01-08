@@ -3,7 +3,7 @@ const searchButton = document.getElementById('searchButton');
 const weatherInfoDiv = document.getElementById('weather-info');
 const loadingDiv = document.getElementById('loading');
 const errorMessageDiv = document.getElementById('error-message');
-const apiKey = 'YOUR_API_KEY'; // Replace with your OpenWeatherMap API key
+const apiKey = '6379422cf09e27c75c82c0f38dfa1826'; // Replace with your OpenWeatherMap API key
 const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?units=metric&q=';
 
 async function fetchWeather(location) {
